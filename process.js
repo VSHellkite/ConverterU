@@ -16,15 +16,9 @@ function swapUnits() {
 function determineSwapOption() {
   const fromUnit = document.getElementById("fromUnit").textContent;
   const toUnit = document.getElementById("toUnit").textContent;
-
-  if (fromUnit === "Imperial" && toUnit === "Metric") {
-    return "Imperial to Metric";
-  } else if (fromUnit === "Metric" && toUnit === "Imperial") {
-    return "Metric to Imperial";
-  }
-
-  return null; // Return null if the swap option is not determined
+  return (fromUnit === "Imperial" && toUnit === "Metric") ? 1 : 0;
 }
+
 // Assuming the button element has an id of "mainButton"
 const mainButton = document.getElementById("mainButton");
 mainButton.addEventListener("click", handleConversion);

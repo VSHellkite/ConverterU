@@ -147,3 +147,7 @@ button:hover {
     color: #FFFFFF;
     background-color: #090788;
 }
+
+.highlight {
+    background-color: #97a046;
+}
