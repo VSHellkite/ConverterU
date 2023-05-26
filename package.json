@@ -1,0 +1,16 @@
+{
+  "name": "converteru",
+  "version": "1.0.0",
+  "description": "CA app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "here we go"
+    
+  },
+  "author": "Volodymyr Stefanskyi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.4.0"
+  }
+}
