@@ -1,16 +1,15 @@
 {
-  "name": "converteru",
+  "name": "converter",
   "version": "1.0.0",
-  "description": "CA app",
+  "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "here we go"
-    
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Volodymyr Stefanskyi",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^24.4.0"
+  "dependencies": {
+    "electron": "^24.3.1"
   }
 }
